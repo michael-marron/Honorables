@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CIS 4301</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="row justify-content-center h-100">
+            <div class="card w-25 my-auto shadow">
+                <!--Try to add a small black boarder to Login Header. Similar to 'Login' border-->
+                <div class="card-header text-center bg-primary text-white">
+                    <h2>CIS Database Login</h2>
+                </div>
+                <div class="card-body">
+                    <form action="expressLogin.js" method="post">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text"
+                                   id="email"
+                                   class="form-control"
+                                   name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password"
+                                   id="password"
+                                   class="form-control"
+                                   name="password" />
+                        </div>
+                        <input type="submit"
+                               class="btn btn-primary w-100"
+                               value="Login"
+                               name="" />
+                    </form>
+                </div>
+                <div class="card-footer text-right">
+                    <small>Group Project</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
